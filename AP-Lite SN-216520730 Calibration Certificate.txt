@@ -1,0 +1,17 @@
+TAB delimited raw text file. Use the TAB key to align the columns in your word Processor software.
+
+
+AquaProbe Calibration Certificate
+
+Date: 15/05/2023
+Time: 09:22:16
+Probe Type: AP-Lite
+Probe S/N: 216520730
+Probe S/W Rev: 4.10
+
+Calibration Record
+
+Function		Value	Temp	Baro
+
+Rhodamine Point 1	2390mV	22.70C	N/A
+Rhodamine Point 2	2610mV	23.30C	N/A
