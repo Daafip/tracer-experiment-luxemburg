@@ -1,0 +1,17 @@
+<PAMDataset>
+  <Metadata domain="HFA">
+    <MDI key="HFA_DEPENDENT_FILE">ASCIITo_fill1</MDI>
+  </Metadata>
+  <PAMRasterBand band="1">
+    <Description>ASCIITo_fill1</Description>
+    <Metadata>
+      <MDI key="LAYER_TYPE">athematic</MDI>
+      <MDI key="STATISTICS_APPROXIMATE">YES</MDI>
+      <MDI key="STATISTICS_MAXIMUM">53289</MDI>
+      <MDI key="STATISTICS_MEAN">38326.938545151</MDI>
+      <MDI key="STATISTICS_MINIMUM">19333</MDI>
+      <MDI key="STATISTICS_STDDEV">7887.9195620345</MDI>
+      <MDI key="STATISTICS_VALID_PERCENT">64.23</MDI>
+    </Metadata>
+  </PAMRasterBand>
+</PAMDataset>

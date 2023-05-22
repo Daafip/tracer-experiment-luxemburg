@@ -1,0 +1,13 @@
+<PAMDataset>
+  <SRS dataAxisToSRSAxisMapping="1,2">PROJCS["LUREF / Luxembourg TM",GEOGCS["LUREF",DATUM["Luxembourg_Reference_Frame",SPHEROID["International 1924",6378388,297,AUTHORITY["EPSG","7022"]],AUTHORITY["EPSG","6181"]],PRIMEM["Greenwich",0],UNIT["Degree",0.0174532925199433]],PROJECTION["Transverse_Mercator"],PARAMETER["latitude_of_origin",49.8333333333333],PARAMETER["central_meridian",6.16666666666667],PARAMETER["scale_factor",1],PARAMETER["false_easting",80000],PARAMETER["false_northing",100000],UNIT["metre",1,AUTHORITY["EPSG","9001"]],AXIS["Easting",EAST],AXIS["Northing",NORTH]]</SRS>
+  <PAMRasterBand band="1">
+    <Metadata>
+      <MDI key="STATISTICS_APPROXIMATE">YES</MDI>
+      <MDI key="STATISTICS_MAXIMUM">10991</MDI>
+      <MDI key="STATISTICS_MEAN">4992.0432605066</MDI>
+      <MDI key="STATISTICS_MINIMUM">234</MDI>
+      <MDI key="STATISTICS_STDDEV">1826.7667944834</MDI>
+      <MDI key="STATISTICS_VALID_PERCENT">61.68</MDI>
+    </Metadata>
+  </PAMRasterBand>
+</PAMDataset>

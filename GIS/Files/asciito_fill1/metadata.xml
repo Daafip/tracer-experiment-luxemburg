@@ -1,0 +1,3 @@
+<?xml version="1.0"?>
+<!--<!DOCTYPE metadata SYSTEM "http://www.esri.com/metadata/esriprof80.dtd">-->
+<metadata xml:lang="nl"><Esri><MetaID>{F320AF8E-105C-4A0A-B205-F94BD9B0E401}</MetaID><CreaDate>20110705</CreaDate><CreaTime>04143400</CreaTime><SyncOnce>TRUE</SyncOnce><DataProperties><lineage><Process ToolSource="C:\Program Files\ArcGIS\ArcToolbox\Toolboxes\Conversion Tools.tbx\ASCIIToRaster" Date="20110705" Time="041434">ASCIIToRaster C:\courses-tudelft\Lippmann\paper\RASTER\resolution_5\fill.txt C:\courses-tudelft\Lippmann\paper\RASTER\resolution_5\ASCIITo_fill1 INTEGER</Process></lineage></DataProperties></Esri></metadata>

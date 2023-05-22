@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SAGA_METADATA>
+  <DATABASE></DATABASE>
+  <SOURCE></SOURCE>
+  <HISTORY saga-version="7.8.2">
+    <TOOL library="ta_preprocessor" id="4" name="Fill Sinks (Wang &amp; Liu)">
+      <OPTION type="grid_system" id="PARAMETERS_GRID_SYSTEM" name="Grid System">
+        <CELLSIZE>5.0044251912</CELLSIZE>
+        <XMIN>61443.30890434</XMIN>
+        <XMAX>77087.14205203121</XMAX>
+        <YMIN>97205.6617894004</YMIN>
+        <YMAX>109376.4238543988</YMAX>
+      </OPTION>
+      <OPTION type="double" id="MINSLOPE" name="Minimum Slope [Degree]">0.100000</OPTION>
+      <INPUT type="grid" id="ELEV" name="DEM" system="PARAMETERS_GRID_SYSTEM">
+        <TOOL library="io_gdal" id="0" name="Import Raster">
+          <OPTION type="file" id="FILES" name="Files">"D:\work\Civiel\Msc\Year 5\Q4\Eco hydrology\repojected_dem_2169.sdat"</OPTION>
+          <OPTION type="choice" id="MULTIPLE" name="Multiple Bands Output" index="2">automatic</OPTION>
+          <OPTION type="text" id="SELECTION" name="Select from Multiple Bands"/>
+          <OPTION type="boolean" id="TRANSFORM" name="Transformation">true</OPTION>
+          <OPTION type="choice" id="RESAMPLING" name="Resampling" index="3">B-Spline Interpolation</OPTION>
+          <OPTION type="choice" id="EXTENT" name="Extent" index="0">original</OPTION>
+          <OUTPUT type="grid_list" id="GRIDS" name="Grids">repojected_dem_2169</OUTPUT>
+        </TOOL>
+      </INPUT>
+      <OUTPUT type="grid" id="FILLED" name="Filled DEM">repojecteddem2169 [no sinks]</OUTPUT>
+    </TOOL>
+  </HISTORY>
+  <FILE></FILE>
+  <DESCRIPTION></DESCRIPTION>
+  <PROJECTION>
+    <OGC_WKT>PROJCS["LUREF_Luxembourg_TM",GEOGCS["GCS_LUREF",DATUM["D_Luxembourg_Reference_Frame",SPHEROID["International_1924",6378388,297]],PRIMEM["Greenwich",0],UNIT["Degree",0.0174532925199433]],PROJECTION["Transverse_Mercator"],PARAMETER["latitude_of_origin",49.8333333333333],PARAMETER["central_meridian",6.16666666666667],PARAMETER["scale_factor",1],PARAMETER["false_easting",80000],PARAMETER["false_northing",100000],UNIT["Meter",1],AXIS["Easting",EAST],AXIS["Northing",NORTH]]</OGC_WKT>
+    <PROJ4>+proj=tmerc +lat_0=49.8333333333333 +lon_0=6.16666666666667 +k=1 +x_0=80000 +y_0=100000 +ellps=intl +units=m +no_defs</PROJ4>
+    <EPSG>-1</EPSG>
+  </PROJECTION>
+</SAGA_METADATA>
