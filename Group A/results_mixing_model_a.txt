@@ -1,0 +1,11 @@
+Section	Q	Loc
+8	49.998	Down	
+9	3.342	Down
+10	47.897	Up	
+12	4.226	Down
+13	43.671	Down	
+14	37.493	Down
+15	6.178	Down
+17	34.191	Up		
+18	23.649	Down
+19	10.54	Down
